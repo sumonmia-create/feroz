@@ -726,6 +726,323 @@ body{
 	
 }
 /* responsive website */
+@media all and (max-width: 560px){
+	.header-top{
+		width: 100%;
+	}
+	.header-area{
+		height: 400px;
+	}
+.time{
+	display: none;
+}
+.hour p{
+	font-size: 10px;
+}
+.hour>a{
+	display: block;
+	
+}
+.hour i{
+	font-size: 10px;
+}	
+.butt{
+	margin-left: 3px;
+	margin-top:25px;
+}
+.but{
+
+	margin-left: 3px;
+	margin-top: 25px;
+}
+.main-menu .checkbtn{
+	display: block;
+}
+.main-menu ul li a{
+	font-size: 20px;
+}
+.main-menu ul{
+	top: 75px;
+	position: fixed;
+	text-align: center;
+	height: 80vh;
+	width: 100%;
+	left: -100%;
+	transition: all .5s;
+	background: #0E7700;
+}
+.main-menu input[type="checkbox"]:checked~ul{
+	left: 0;
+	}
+.main-menu ul li{
+	display: block;
+}
+/* dashboard responsive */
+.logo-area{
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 65px;
+	font-size: 25px;
+}
+.dash{
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-right: 180px;
+	margin-top: 50px;
+}
+/* box responsive */
+.unique-area{
+	height: 2000px;
+	overflow: hidden;
+}
+.box{
+	width: 265px;
+	height: 650px;
+	position: relative;
+	margin-top: 50px;
+	background: #0A1126;
+	float: none;
+	position: relative;
+	margin-left: 118px;
+}
+.box1{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box1>p{
+	margin-right: 100px;
+	
+}
+.box1 h2{
+	margin-left: 20px;
+}
+.box1 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+.box2{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box2>p{
+	margin-right: 110px;
+	
+}
+.box2 h2{
+	margin-left: 20px;
+}
+.box2 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+.box3{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box3>p{
+	margin-right: 100px;
+	
+}
+.box3 h2{
+	margin-left: 20px;
+}
+.box3 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+/* second box start here */
+.box4{
+	float: none;
+	width: 270px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box4 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box4 span{
+	margin-top: 10px;
+}
+.box5{
+	float: none;
+	width: 270px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box5 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box5 span{
+	margin-top: 20px;
+}
+.box6{
+	float: none;
+	width: 270px;
+	height: 280px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box6 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box6 span{
+	margin-top: 10px;
+}
+.box6 i{
+	margin-top: 30px
+}
+
+/* search area start here */
+ 
+.search button{
+	float: left;
+	margin-top: 50px;
+	margin-left: 1px;
+	width: 15%;
+	padding: 4px 0px;
+}
+.search i{
+	padding: 4.5px;
+	font-size: 20px;
+	color: #EE9F93;
+}
+.search input{
+	float: left;
+	margin-top: 50px;
+	padding: 11px 29px;
+	width: 55%;
+	background-color: #053262;
+	border: none;
+}
+.search a{
+	float: left;
+	margin-top: 50px;
+	background: linear-gradient(#00ABD0,#0A7ABD);
+	padding: 13px 0px;
+	font-size: 10px;
+}
+/* footer area start here */
+.footer-area{
+	margin: 0;
+	padding: 0;
+	height: 1000px;
+}
+
+.boxa1{
+	float: none;
+	width: 300px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-right: 100px;
+}
+.boxa1 h2{
+	margin-right: 75px;
+	font-size: 17px;
+}
+.boxa1 a{
+	margin-right: 105px;
+	font-size: 14px;
+	
+}
+.boxa1 p{
+	margin-right: 40px;
+	font-size: 10px;
+	margin-top: 10px;
+}
+.boxa1>i{
+	margin-right: 40px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.boxa2{
+	float: none;
+	width: 295px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.boxa2 a{
+	margin-right: 40px;
+	font-size: 15px;
+	
+}
+.boxa2 p{
+	margin-right: 40px;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.boxa3{
+	float: none;
+	width: 300px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.boxa3 a{
+	margin-right: 20px;
+	font-size: 15px;
+	
+}
+.boxa3 p{
+	margin-right: 40px;
+	font-size: 19px;
+	margin-top: 10px;
+}
+.boxa3>i{
+	margin-right: 30px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.boxa4{
+	float: none;
+	width: 275px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+}
 @media all and (max-width: 538px){
 	.header-top{
 		width: 100%;
@@ -1040,6 +1357,652 @@ body{
 	margin: auto;
 	display: block;
 	text-align: center;
+}
+
+}
+@media all and (max-width: 380px){
+	
+.header-top{
+		width: 100%;
+		border-radius: none;
+	}
+.time{
+	display: none;
+}
+.hour p{
+	font-size: 10px;
+}
+.hour>a{
+	display: block;
+	
+}
+.hour i{
+	font-size: 10px;
+}	
+.butt{
+	margin-left: 3px;
+	margin-top: 5px;
+}
+.but{
+
+	margin-left: 3px;
+	margin-top: 5px;
+}
+.main-menu .checkbtn{
+	display: block;
+}
+.main-menu ul li a{
+	font-size: 20px;
+}
+.main-menu ul{
+	top: 75px;
+	position: fixed;
+	text-align: center;
+	height: 90vh;
+	width: 100%;
+	left: -100%;
+	transition: all .5s;
+	background: #0E7700;
+}
+.main-menu input[type="checkbox"]:checked~ul{
+	left: 0;
+	}
+.main-menu ul li{
+	display: block;
+}
+/* dashboard responsive */
+.logo-area{
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 5px;
+	font-size: 25px;
+}
+.dash{
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+/* box responsive */
+.unique-area{
+	height: 2000px;
+	overflow: hidden;
+}
+.box{
+	width: 265px;
+	height: 650px;
+	position: relative;
+	margin-top: 50px;
+	background: #0A1126;
+	float: none;
+	position: relative;
+	margin-left: 38px;
+
+}
+.box1{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+
+}
+.box1>p{
+	margin-right: 100px;
+	
+}
+.box1 h2{
+	margin-left: 20px;
+}
+.box1 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+.box2{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box2>p{
+	margin-right: 110px;
+	
+}
+.box2 h2{
+	margin-left: 20px;
+}
+.box2 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+.box3{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box3>p{
+	margin-right: 100px;
+	
+}
+.box3 h2{
+	margin-left: 20px;
+}
+.box3 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+/* second box start here */
+.box4{
+	float: none;
+	width: 270px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box4 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box4 span{
+	margin-top: 10px;
+}
+.box5{
+	float: none;
+	width: 270px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box5 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box5 span{
+	margin-top: 20px;
+}
+.box6{
+	float: none;
+	width: 270px;
+	height: 280px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box6 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box6 span{
+	margin-top: 10px;
+}
+.box6 i{
+	margin-top: 30px
+}
+
+/* search area start here */
+ 
+.search button{
+	float: left;
+	margin-top: 50px;
+	margin-left: 15px;
+	width: 15%;
+	padding: 4px 0px;
+}
+.search i{
+	padding: 4.5px;
+	font-size: 20px;
+	color: #EE9F93;
+}
+.search input{
+	float: left;
+	margin-top: 50px;
+	padding: 11px 29px;
+	width: 35%;
+	background-color: #053262;
+	border: none;
+}
+.search a{
+	float: left;
+	margin-top: 50px;
+	background: linear-gradient(#00ABD0,#0A7ABD);
+	padding: 13px 0px;
+	font-size: 10px;
+}
+/* footer area start here */
+.footer-area{
+	margin: 0;
+	padding: 0;
+	height: 1000px;
+}
+
+.boxa1{
+	float: none;
+	width: 300px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-right: 20px;
+}
+.boxa1 h2{
+	margin-right: 75px;
+	font-size: 17px;
+}
+.boxa1 a{
+	margin-right: 105px;
+	font-size: 14px;
+	
+}
+.boxa1 p{
+	margin-right: 40px;
+	font-size: 10px;
+	margin-top: 10px;
+}
+.boxa1>i{
+	margin-right: 40px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.boxa2{
+	float: none;
+	width: 295px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.boxa2 a{
+	margin-right: 40px;
+	font-size: 15px;
+	
+}
+.boxa2 p{
+	margin-right: 40px;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.boxa3{
+	float: none;
+	width: 300px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.boxa3 a{
+	margin-right: 35px;
+	font-size: 15px;
+	
+}
+.boxa3 p{
+	margin-right: 40px;
+	font-size: 19px;
+	margin-top: 10px;
+}
+.boxa3>i{
+	margin-right: 40px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.boxa4{
+	float: none;
+	width: 275px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+}
+@media all and (max-width: 328px){
+	
+.header-top{
+		width: 100%;
+		border-radius: none;
+	}
+.time{
+	display: none;
+}
+.hour p{
+	font-size: 10px;
+}
+.hour>a{
+	display: block;
+	
+}
+.hour i{
+	font-size: 10px;
+}	
+.butt{
+	margin-left: 3px;
+	margin-top: 5px;
+}
+.but{
+
+	margin-left: 3px;
+	margin-top: 5px;
+}
+.main-menu .checkbtn{
+	display: block;
+}
+.main-menu ul li a{
+	font-size: 20px;
+}
+.main-menu ul{
+	top: 75px;
+	position: fixed;
+	text-align: center;
+	height: 90vh;
+	width: 100%;
+	left: -100%;
+	transition: all .5s;
+	background: #0E7700;
+}
+.main-menu input[type="checkbox"]:checked~ul{
+	left: 0;
+	}
+.main-menu ul li{
+	display: block;
+}
+/* dashboard responsive */
+.logo-area{
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 5px;
+	font-size: 25px;
+}
+.dash{
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-right: 60px;
+	margin-top: 50px;
+}
+/* box responsive */
+.unique-area{
+	height: 2000px;
+	overflow: hidden;
+}
+.box{
+	width: 265px;
+	height: 650px;
+	position: relative;
+	margin-top: 50px;
+	background: #0A1126;
+	float: none;
+	position: relative;
+	margin-left: 15px;
+
+}
+.box1{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+
+}
+.box1>p{
+	margin-right: 100px;
+	
+}
+.box1 h2{
+	margin-left: 20px;
+}
+.box1 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+.box2{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box2>p{
+	margin-right: 110px;
+	
+}
+.box2 h2{
+	margin-left: 20px;
+}
+.box2 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+.box3{
+	float: none;
+	width: 265px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box3>p{
+	margin-right: 100px;
+	
+}
+.box3 h2{
+	margin-left: 20px;
+}
+.box3 i{
+	margin-right: 5px;
+	margin-top: 25px;
+}
+/* second box start here */
+.box4{
+	float: none;
+	width: 270px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box4 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box4 span{
+	margin-top: 10px;
+}
+.box5{
+	float: none;
+	width: 270px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box5 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box5 span{
+	margin-top: 20px;
+}
+.box6{
+	float: none;
+	width: 270px;
+	height: 280px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box6 p{
+	margin-top: 20px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.box6 span{
+	margin-top: 10px;
+}
+.box6 i{
+	margin-top: 30px
+}
+
+/* search area start here */
+ 
+.search button{
+	float: left;
+	margin-top: 50px;
+	margin-left: 15px;
+	width: 15%;
+	padding: 4px 0px;
+}
+.search i{
+	padding: 4.5px;
+	font-size: 20px;
+	color: #EE9F93;
+}
+.search input{
+	float: left;
+	margin-top: 50px;
+	padding: 11px 29px;
+	width: 35%;
+	background-color: #053262;
+	border: none;
+}
+.search a{
+	float: left;
+	margin-top: 50px;
+	background: linear-gradient(#00ABD0,#0A7ABD);
+	padding: 13px 0px;
+	font-size: 10px;
+}
+/* footer area start here */
+.footer-area{
+	margin: 0;
+	padding: 0;
+	height: 1000px;
+}
+
+.boxa1{
+	float: none;
+	width: 300px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-right: 20px;
+}
+.boxa1 h2{
+	margin-right: 75px;
+	font-size: 17px;
+}
+.boxa1 a{
+	margin-right: 105px;
+	font-size: 14px;
+	
+}
+.boxa1 p{
+	margin-right: 40px;
+	font-size: 10px;
+	margin-top: 10px;
+}
+.boxa1>i{
+	margin-right: 40px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.boxa2{
+	float: none;
+	width: 295px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.boxa2 a{
+	margin-right: 40px;
+	font-size: 15px;
+	
+}
+.boxa2 p{
+	margin-right: 40px;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.boxa3{
+	float: none;
+	width: 300px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.boxa3 a{
+	margin-right: 35px;
+	font-size: 15px;
+	
+}
+.boxa3 p{
+	margin-right: 40px;
+	font-size: 19px;
+	margin-top: 10px;
+}
+.boxa3>i{
+	margin-right: 40px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.boxa4{
+	float: none;
+	width: 275px;
+	height: 240px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+}
+@media all and (max-width: 326px){
+	
+.search input{
+	
+	width: 30%;
+	
 }
 
 }
